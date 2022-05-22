@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommLink", "CommLink\CommLink.csproj", "{0448D4BF-B779-4A95-BEC4-BA625108AA95}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		CommLink|Any CPU = CommLink|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0448D4BF-B779-4A95-BEC4-BA625108AA95}.CommLink|Any CPU.ActiveCfg = CommLink|Any CPU
+		{0448D4BF-B779-4A95-BEC4-BA625108AA95}.CommLink|Any CPU.Build.0 = CommLink|Any CPU
+		{0448D4BF-B779-4A95-BEC4-BA625108AA95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0448D4BF-B779-4A95-BEC4-BA625108AA95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0448D4BF-B779-4A95-BEC4-BA625108AA95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0448D4BF-B779-4A95-BEC4-BA625108AA95}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4D85829E-B34A-4CF1-B2D1-7666DA9178E0}
+	EndGlobalSection
+EndGlobal
