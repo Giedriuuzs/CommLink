@@ -216,7 +216,7 @@ GO
 -- Create date: <Create Date,,>
 -- Description:	<Description,,>
 -- =============================================
-ALTER PROCEDURE [dbo].[addOrEditExams]
+CREATE PROCEDURE [dbo].[addOrEditExams]
 	-- Add the parameters for the stored procedure here
 	@AnalyzerExamID int,
 	@AnalyzerID int,
@@ -241,6 +241,7 @@ BEGIN
 	Active = @Active
 	WHERE AnalyzerExamID = @AnalyzerExamID
 END
+GO
 
 USE [LabLink]
 GO
@@ -254,7 +255,7 @@ GO
 -- Create date: <Create Date,,>
 -- Description:	<Description,,>
 -- =============================================
-ALTER PROCEDURE [dbo].[deleteAnalyzerExamByID] 
+CREATE PROCEDURE [dbo].[deleteAnalyzerExamByID] 
 	@AnalyzerExamID int
 AS
 BEGIN
