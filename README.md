@@ -14,3 +14,4 @@
 ![image](https://user-images.githubusercontent.com/50969311/169723609-d682d5f6-479c-4b0a-b469-47970de96d42.png)
 Pakoreguokite pažymėtą vietą įvesdami savo kompiuterio pavadinimą: pvz. Data source= < Kompiuterio pavadinimas >. Išsaugokite ir uždarykite failą.
  7. Komunikacinę sąsają paleiskite du kartus spustelėjus CommLink.exe failą.
+# Mobiliosios programėlės diegimo vadovas.
