@@ -15,3 +15,11 @@
 Pakoreguokite pažymėtą vietą įvesdami savo kompiuterio pavadinimą: pvz. Data source= < Kompiuterio pavadinimas >. Išsaugokite ir uždarykite failą.
  7. Komunikacinę sąsają paleiskite du kartus spustelėjus CommLink.exe failą.
 # Mobiliosios programėlės diegimo vadovas.
+1.	Parsisiųskite ir įsidiekite „NodeJs“ rekomenduojamą versiją. Oficialus puslapis: https://nodejs.org/en/ 
+2.	Nueikite į išarchyvuotą aplanką ir paleiskite ngrok.exe programą, atsivėrusioje komandinėje eilutė įrašykite komandą <ngrok http “https:/localhost:5001“> Taip bus inicijuojamas saugus ryšys tarp mobiliosios programėlės ir jūsų kompiuterio.
+3.	Nueikite į \CommLinkMobileApp\app\screens ir atverkite teksto redagavimo įrankiu failą HomeScreen.js Iš komandinės eilutės nukopijuokite „Forwading“ eilutės adresą pažymėtą raudonai ir įklijuokite į pažymėtą vietą. Failą išsaugokite, komandinę eilutę palikite aktyvią.
+![image](https://user-images.githubusercontent.com/50969311/169729874-b609530a-aa5d-47b1-9f10-1526649a8985.png)
+4.	Atverkite kitą komandinę eilutę ir nueikite į išarchyvuotą aplankalą naudodamiesi <cd> komanda.
+5.	Įveskite komandą <npm start> ir paspauskite ENTER (28 pav.).
+ ![image](https://user-images.githubusercontent.com/50969311/169729920-948ba8b1-2576-483c-bf9f-e5765017c78b.png)
+6.	Parsisiųskite į savo „Android“ telefoną programėlę „Expo Go“ ir nuskenuokite komandinėje eilutėje atvaizduotą QR kodą.
